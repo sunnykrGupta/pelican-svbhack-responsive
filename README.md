@@ -22,7 +22,14 @@ You can see the [theme in action](https://sunnykrgupta.github.io/).
 
 ## Installation
 
-Clone the [repository](https://github.com/sunnykrGupta/pelican-svbhack-responsive), edit your `pelicanconf.py` and modify the `THEME` variable to make it point to the downloaded theme location.
+### Configure pelicanconf.py
+
+Edit `pelicanconf.py` in your site root:
+
+```python
+# Point THEME at the cloned theme directory (use an absolute path or path relative to pelicanconf.py)
+THEME = "themes/pelican-svbhack-responsive"
+```
 
 
 ## Configurations
