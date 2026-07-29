@@ -75,7 +75,7 @@ main header nav a {
     color: #999999;
 }
 
-main header nav a#twitter:hover {
+main header nav a#x:hover {
     border: 2px solid #fff;
 }
 main header nav a#github:hover {
@@ -85,6 +85,9 @@ main header nav a#linkedin:hover {
     border: 2px solid #fff;
 }
 main header nav a#googleplus:hover {
+    border: 2px solid #fff;
+}
+main header nav a#medium:hover {
     border: 2px solid #fff;
 }
 main header nav a#mail:hover {
