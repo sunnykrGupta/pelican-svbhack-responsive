@@ -14,10 +14,10 @@ You can see the [theme in action](https://sunnykrgupta.github.io/).
 - Clean and responsive design
 - Customizable Syntax highlighting via [pygments][pygments]
 - Google analytics
-- Twitter Widgets [twitter-cards]
-- Navigator for social sites on top : google+, twitter, github, linkedin, email
+- X (Twitter) Widgets [twitter-cards]
+- Navigator for social sites on top : google+, x, github, linkedin, email
 
-[Twitter-Widgets]: https://dev.twitter.com/web/embedded-timelines
+[Twitter-Widgets]: https://developer.x.com/en/docs/twitter-for-websites/timelines/overview
 
 
 ## Installation
@@ -44,9 +44,21 @@ Supports a number of common global variables but patches are welcomed if you nee
 
 -  `SITEURL = http://localhost:8000` When developing locally.
 
--  `widget_profile_url = "https://twitter.com/@user"`
+-  `widget_profile_url = "https://x.com/@user"`
 -  `widget_profile_name = "@user"`
 -  `widget_id_int = "WIDGET-ID"`
+
+Social nav icons load from `theme/images/Mono/webicon-<name>.png`. Use `x` as the SOCIAL name for the X logo. Example:
+
+```python
+SOCIAL = (
+    ("linkedin", "https://www.linkedin.com/in/you/"),
+    ("github", "https://github.com/you"),
+    ("x", "https://x.com/you"),
+    ("medium", "https://medium.com/@you"),
+    ("mail", "mailto:you@example.com"),
+)
+```
 
 
 
