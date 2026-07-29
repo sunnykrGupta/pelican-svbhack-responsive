@@ -6,7 +6,7 @@ pelican-svbtle-responsive is a responsive theme for Pelican. Customized from for
 
 You can see the [theme in action](https://sunnykrgupta.github.io/).
 
-![screenshot](screenshot.png)
+![screenshot](./screenshot.png)
 
 
 ## Features
