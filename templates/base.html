@@ -78,10 +78,13 @@
                 <nav>
                     {% for name, link in SOCIAL %}
                     <a id="{{name}}" href="{{ link }}" target="_blank"
-                        ><img
+                        >{% if name == 'x' %}<img
+                            src="{{ SITEURL }}/theme/images/Mono/webicon-{{ name }}.webp"
+                            alt="{{ name }}"
+                        />{% else %}<img
                             src="{{ SITEURL }}/theme/images/Mono/webicon-{{ name }}.png"
                             alt="{{ name }}"
-                    /></a>
+                        />{% endif %}</a>
                     {% endfor %}
                 </nav>
                 <br />
